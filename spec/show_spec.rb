@@ -38,7 +38,6 @@ describe Show do
 
   it "should have a genre" do
     #TODO: you'll need to add yet another new field to shows here
-    show = Show.new
     show.name = "Gilmore Girls"
     show.genre = "Dramedy"
     show.save
