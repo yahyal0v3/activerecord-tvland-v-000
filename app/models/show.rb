@@ -1,6 +1,6 @@
 class Show < ActiveRecord::Base
   attr_accessor :genre
-
+  binding.pry
   has_many :characters
   has_many :actors, through: :characters
   belongs_to :network
